@@ -9,7 +9,7 @@ defmodule WhereIs.Router do
 
   get "/*path" do
     {status, response} = WhereIs.country(path)
-    Logger.debug response
+    Logger.debug(response)
     send_resp(conn, status, response)
   end
 
