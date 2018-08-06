@@ -24,7 +24,8 @@ defmodule WhereIs.MixProject do
     [
       {:ip2country, git: "https://github.com/grych/ip2country"},
       {:cowboy, "~> 1.0"},
-      {:plug, "~> 1.6.0"}
+      {:plug, "~> 1.6.0"},
+      {:distillery, "2.0.0-rc.7"}
     ]
   end
 end
